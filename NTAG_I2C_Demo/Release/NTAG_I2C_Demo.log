@@ -1,0 +1,104 @@
+﻿Build started 12/11/2015 13:06:24.
+     1>Project "C:\Users\Laia Gasparin\Documents\Working_Documents\NTAGI2C\NTAG_I2C_Demo_Project_LG\NTAG_I2C_Demo\NTAG_I2C_Demo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\NTAG_I2C_Demo.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\NTAG_I2C_Demo.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp Config.cpp crc32.cpp NTAG_I2C_API.cpp NTAG_I2C_RF.cpp BoardDemo.cpp EEPROM.cpp NDEFmsg.cpp NDEFRecord.cpp NTAG_I2C_Demo.cpp NTAG_I2C_Logic.cpp Reader.cpp Registers.cpp SRAM.cpp URI.cpp Utils.cpp
+         AssemblyInfo.cpp
+     1>AssemblyInfo.cpp(40): warning C4947: 'RequestMinimum' : marked as obsolete
+                 Message: 'Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.'
+         Config.cpp
+         crc32.cpp
+         NTAG_I2C_API.cpp
+         NTAG_I2C_RF.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Reader.h(39): warning C4091: 'static ' : ignored on left of 'Reader' when no variable is declared
+         BoardDemo.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\BoardDemo.h(26): warning C4091: 'static ' : ignored on left of 'BoardDemo' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Reader.h(39): warning C4091: 'static ' : ignored on left of 'Reader' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\SRAM.h(11): warning C4091: 'static ' : ignored on left of 'SRAM' when no variable is declared
+     1>BoardDemo.cpp(16): warning C4091: 'static ' : ignored on left of 'NTAG_I2C_Demo::BoardDemo' when no variable is declared
+         EEPROM.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\EEPROM.h(12): warning C4091: 'static ' : ignored on left of 'EEPROM' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Reader.h(39): warning C4091: 'static ' : ignored on left of 'Reader' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\SRAM.h(11): warning C4091: 'static ' : ignored on left of 'SRAM' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\NDEFmsg.h(14): warning C4091: 'static ' : ignored on left of 'NDEFmsg' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Registers.h(43): warning C4091: 'static ' : ignored on left of 'Registers' when no variable is declared
+     1>EEPROM.cpp(17): warning C4091: 'static ' : ignored on left of 'NTAG_I2C_Demo::EEPROM' when no variable is declared
+         NDEFmsg.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\NDEFmsg.h(14): warning C4091: 'static ' : ignored on left of 'NDEFmsg' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Reader.h(39): warning C4091: 'static ' : ignored on left of 'Reader' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\URI.h(8): warning C4091: 'static ' : ignored on left of 'URI' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\SRAM.h(11): warning C4091: 'static ' : ignored on left of 'SRAM' when no variable is declared
+     1>NDEFmsg.cpp(327): warning C4172: returning address of local variable or temporary
+         NDEFRecord.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\URI.h(8): warning C4091: 'static ' : ignored on left of 'URI' when no variable is declared
+         NTAG_I2C_Demo.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\BoardDemo.h(26): warning C4091: 'static ' : ignored on left of 'BoardDemo' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Registers.h(43): warning C4091: 'static ' : ignored on left of 'Registers' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Reader.h(39): warning C4091: 'static ' : ignored on left of 'Reader' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\NTAG_I2C_Logic.h(8): warning C4091: 'static ' : ignored on left of 'NTAG_I2C_Logic' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\EEPROM.h(12): warning C4091: 'static ' : ignored on left of 'EEPROM' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\NDEFmsg.h(14): warning C4091: 'static ' : ignored on left of 'NDEFmsg' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\SRAM.h(11): warning C4091: 'static ' : ignored on left of 'SRAM' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Form1.h(215): warning C4005: 'ARRAY_SIZE' : macro redefinition
+                 c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Ntag_I2C.h(20) : see previous definition of 'ARRAY_SIZE'
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Form1.h(2117): warning C4101: 'per' : unreferenced local variable
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Form1.h(2133): warning C4101: 'per' : unreferenced local variable
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Form1.h(2179): warning C4101: 'per' : unreferenced local variable
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Form1.h(2195): warning C4101: 'per' : unreferenced local variable
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Form1.h(2236): warning C4101: 'per' : unreferenced local variable
+         NTAG_I2C_Logic.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\NTAG_I2C_Logic.h(8): warning C4091: 'static ' : ignored on left of 'NTAG_I2C_Logic' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Reader.h(39): warning C4091: 'static ' : ignored on left of 'Reader' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\BoardDemo.h(26): warning C4091: 'static ' : ignored on left of 'BoardDemo' when no variable is declared
+         Reader.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Reader.h(39): warning C4091: 'static ' : ignored on left of 'Reader' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\BoardDemo.h(26): warning C4091: 'static ' : ignored on left of 'BoardDemo' when no variable is declared
+     1>Reader.cpp(80): warning C4091: 'static ' : ignored on left of 'NTAG_I2C_Demo::Reader' when no variable is declared
+     1>Reader.cpp(119): warning C4101: 'i' : unreferenced local variable
+     1>Reader.cpp(124): warning C4101: 'byMajorVersion' : unreferenced local variable
+     1>Reader.cpp(125): warning C4101: 'byMinorVersion' : unreferenced local variable
+         Registers.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Registers.h(43): warning C4091: 'static ' : ignored on left of 'Registers' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Reader.h(39): warning C4091: 'static ' : ignored on left of 'Reader' when no variable is declared
+         SRAM.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\SRAM.h(11): warning C4091: 'static ' : ignored on left of 'SRAM' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Reader.h(39): warning C4091: 'static ' : ignored on left of 'Reader' when no variable is declared
+         URI.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\URI.h(8): warning C4091: 'static ' : ignored on left of 'URI' when no variable is declared
+         Utils.cpp
+         Generating Code...
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\form1.h(2300): warning C4700: uninitialized local variable 'lReturn' used
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\form1.h(2378): warning C4700: uninitialized local variable 'transferDir' used
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\eeprom.cpp(471): warning C4700: uninitialized local variable 'length' used
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\VS_VERSION_INFO.res" VS_VERSION_INFO.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laia Gasparin\Documents\Working_Documents\NTAGI2C\NTAG_I2C_Demo_Project_LG\Release\NTAG_I2C_Demo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Release advapi32.lib winscard.lib user32.lib Gdi32.lib /ASSEMBLYRESOURCE:Release\NTAG_I2C_Demo.ConfigRegForm.resources /ASSEMBLYRESOURCE:Release\NTAG_I2C_Demo.EEPROMSpeedForm.resources /ASSEMBLYRESOURCE:Release\NTAG_I2C_Demo.Form1.resources /ASSEMBLYRESOURCE:Release\NTAG_I2C_Demo.ReadMemForm.resources /ASSEMBLYRESOURCE:Release\NTAG_I2C_Demo.SessionRegForm.resources /ASSEMBLYRESOURCE:Release\NTAG_I2C_Demo.TapTagForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Laia Gasparin\Documents\Working_Documents\NTAGI2C\NTAG_I2C_Demo_Project_LG\Release\NTAG_I2C_Demo.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\app.res
+         Release\VS_VERSION_INFO.res
+         Release\AssemblyInfo.obj
+         Release\Config.obj
+         Release\crc32.obj
+         Release\NTAG_I2C_API.obj
+         Release\NTAG_I2C_RF.obj
+         Release\BoardDemo.obj
+         Release\EEPROM.obj
+         Release\NDEFmsg.obj
+         Release\NDEFRecord.obj
+         Release\NTAG_I2C_Demo.obj
+         Release\NTAG_I2C_Logic.obj
+         Release\Reader.obj
+         Release\Registers.obj
+         Release\SRAM.obj
+         Release\stdafx.obj
+         Release\URI.obj
+         Release\Utils.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         NTAG_I2C_Demo.vcxproj -> C:\Users\Laia Gasparin\Documents\Working_Documents\NTAGI2C\NTAG_I2C_Demo_Project_LG\Release\NTAG_I2C_Demo.exe
+     1>Done Building Project "C:\Users\Laia Gasparin\Documents\Working_Documents\NTAGI2C\NTAG_I2C_Demo_Project_LG\NTAG_I2C_Demo\NTAG_I2C_Demo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.22

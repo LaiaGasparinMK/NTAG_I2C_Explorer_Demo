@@ -1,0 +1,38 @@
+﻿Build started 12/11/2015 15:38:36.
+     1>Project "C:\Users\Laia Gasparin\Documents\Working_Documents\NTAGI2C\NTAG_I2C_Demo_Project_LG\NTAG_I2C_Demo\NTAG_I2C_Demo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\lpascual-mk\Desktop" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\NTAG_I2C_Demo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Reader.cpp
+         Reader.cpp
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\Reader.h(40): warning C4091: 'static ' : ignored on left of 'Reader' when no variable is declared
+     1>c:\users\laia gasparin\documents\working_documents\ntagi2c\ntag_i2c_demo_project_lg\ntag_i2c_demo\BoardDemo.h(26): warning C4091: 'static ' : ignored on left of 'BoardDemo' when no variable is declared
+     1>Reader.cpp(82): warning C4091: 'static ' : ignored on left of 'NTAG_I2C_Demo::Reader' when no variable is declared
+     1>Reader.cpp(124): warning C4101: 'i' : unreferenced local variable
+     1>Reader.cpp(129): warning C4101: 'byMajorVersion' : unreferenced local variable
+     1>Reader.cpp(130): warning C4101: 'byMinorVersion' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laia Gasparin\Documents\Working_Documents\NTAGI2C\NTAG_I2C_Demo_Project_LG\Debug\NTAG_I2C_Demo.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug advapi32.lib winscard.lib user32.lib Gdi32.lib /ASSEMBLYRESOURCE:Debug\NTAG_I2C_Demo.ConfigRegForm.resources /ASSEMBLYRESOURCE:Debug\NTAG_I2C_Demo.EEPROMSpeedForm.resources /ASSEMBLYRESOURCE:Debug\NTAG_I2C_Demo.Form1.resources /ASSEMBLYRESOURCE:Debug\NTAG_I2C_Demo.ReadMemForm.resources /ASSEMBLYRESOURCE:Debug\NTAG_I2C_Demo.SessionRegForm.resources /ASSEMBLYRESOURCE:Debug\NTAG_I2C_Demo.TapTagForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Laia Gasparin\Documents\Working_Documents\NTAGI2C\NTAG_I2C_Demo_Project_LG\Debug\NTAG_I2C_Demo.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Debug\app.res
+         Debug\VS_VERSION_INFO.res
+         Debug\AssemblyInfo.obj
+         Debug\Config.obj
+         Debug\crc32.obj
+         Debug\NTAG_I2C_API.obj
+         Debug\NTAG_I2C_RF.obj
+         Debug\BoardDemo.obj
+         Debug\EEPROM.obj
+         Debug\NDEFmsg.obj
+         Debug\NDEFRecord.obj
+         Debug\NTAG_I2C_Demo.obj
+         Debug\NTAG_I2C_Logic.obj
+         Debug\Reader.obj
+         Debug\Registers.obj
+         Debug\SRAM.obj
+         Debug\stdafx.obj
+         Debug\URI.obj
+         Debug\Utils.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         NTAG_I2C_Demo.vcxproj -> C:\Users\Laia Gasparin\Documents\Working_Documents\NTAGI2C\NTAG_I2C_Demo_Project_LG\Debug\NTAG_I2C_Demo.exe
+     1>Done Building Project "C:\Users\Laia Gasparin\Documents\Working_Documents\NTAGI2C\NTAG_I2C_Demo_Project_LG\NTAG_I2C_Demo\NTAG_I2C_Demo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.21

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{90f704af-2deb-48c8-9fd8-fb97435efeda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFC_Reader">
+      <UniqueIdentifier>{13f6628f-708f-4d9a-9744-6c5ed3d0591f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App_Start">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="NTAG_I2C_API">
+      <UniqueIdentifier>{ca24b142-62f2-4054-b9a3-50bd3d45407b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{d4460d56-7395-4a0c-84dc-c1ae7c5373a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Previewers">
+      <UniqueIdentifier>{3d139f1f-2beb-4a06-b517-fedea7e2cadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\crc32">
+      <UniqueIdentifier>{9e82b4aa-5254-4a38-8784-89d86289fe1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="NTAG_I2C_RF_COMMANDS">
+      <UniqueIdentifier>{7edb5165-b297-4142-9df6-21e30d3a09d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTAG_I2C_Explorer_Demo">
+      <UniqueIdentifier>{81db628e-517b-4852-ab91-69d0b739f6b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTAG_I2C_Explorer_Demo\Flashing">
+      <UniqueIdentifier>{ee5affba-8813-4277-a0d8-ec3abc148482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTAG_I2C_Explorer_Demo\NDEF">
+      <UniqueIdentifier>{7c69c249-85cf-49aa-a640-d6faa7cdfee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTAG_I2C_Explorer_Demo\Config">
+      <UniqueIdentifier>{51ea41ec-bd8d-437b-9f2b-773b36af339e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTAG_I2C_Explorer_Demo\Demo">
+      <UniqueIdentifier>{84c2e754-8da3-4a46-8b01-0e0c1dcacedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTAG_I2C_Explorer_Demo\SpeedTest">
+      <UniqueIdentifier>{db464d98-96af-423d-9d6e-cb70ee5cbf26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTAG_I2C_API\NTAG_I2C_MEMORY">
+      <UniqueIdentifier>{c05829fa-26b5-4de0-9e89-e53a11821495}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>App_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="NTAG_I2C_Demo.cpp">
+      <Filter>App_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="NDEFmsg.cpp">
+      <Filter>NTAG_I2C_Explorer_Demo\NDEF</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32.cpp">
+      <Filter>Shared\crc32</Filter>
+    </ClCompile>
+    <ClCompile Include="NTAG_I2C_Logic.cpp">
+      <Filter>App_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="URI.cpp">
+      <Filter>NTAG_I2C_Explorer_Demo\NDEF</Filter>
+    </ClCompile>
+    <ClCompile Include="NDEFRecord.cpp">
+      <Filter>NTAG_I2C_Explorer_Demo\NDEF</Filter>
+    </ClCompile>
+    <ClCompile Include="SRAM.cpp">
+      <Filter>NTAG_I2C_API\NTAG_I2C_MEMORY</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="EEPROM.cpp">
+      <Filter>NTAG_I2C_API\NTAG_I2C_MEMORY</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>NFC_Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Registers.cpp">
+      <Filter>NTAG_I2C_API\NTAG_I2C_MEMORY</Filter>
+    </ClCompile>
+    <ClCompile Include="NTAG_I2C_API.cpp">
+      <Filter>NTAG_I2C_API</Filter>
+    </ClCompile>
+    <ClCompile Include="NTAG_I2C_RF.cpp">
+      <Filter>NTAG_I2C_RF_COMMANDS</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardDemo.cpp">
+      <Filter>NTAG_I2C_Explorer_Demo\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>NTAG_I2C_Explorer_Demo\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TapTagForm.h">
+      <Filter>GUI\Previewers</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionRegForm.h">
+      <Filter>GUI\Previewers</Filter>
+    </ClInclude>
+    <ClInclude Include="EEPROMSpeedForm.h">
+      <Filter>GUI\Previewers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigRegForm.h">
+      <Filter>GUI\Previewers</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadMemForm.h">
+      <Filter>GUI\Previewers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForms.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="NDEFmsg.h">
+      <Filter>NTAG_I2C_Explorer_Demo\NDEF</Filter>
+    </ClInclude>
+    <ClInclude Include="crc32.h">
+      <Filter>Shared\crc32</Filter>
+    </ClInclude>
+    <ClInclude Include="NTAG_I2C_Logic.h">
+      <Filter>App_Start</Filter>
+    </ClInclude>
+    <ClInclude Include="URI.h">
+      <Filter>NTAG_I2C_Explorer_Demo\NDEF</Filter>
+    </ClInclude>
+    <ClInclude Include="NDEFRecord.h">
+      <Filter>NTAG_I2C_Explorer_Demo\NDEF</Filter>
+    </ClInclude>
+    <ClInclude Include="SRAM.h">
+      <Filter>NTAG_I2C_API\NTAG_I2C_MEMORY</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Ntag_I2C.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="EEPROM.h">
+      <Filter>NTAG_I2C_API\NTAG_I2C_MEMORY</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>NFC_Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Registers.h">
+      <Filter>NTAG_I2C_API\NTAG_I2C_MEMORY</Filter>
+    </ClInclude>
+    <ClInclude Include="NTAG_I2C_API.h">
+      <Filter>NTAG_I2C_API</Filter>
+    </ClInclude>
+    <ClInclude Include="NTAG_I2C_RF.h">
+      <Filter>NTAG_I2C_RF_COMMANDS</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardDemo.h">
+      <Filter>NTAG_I2C_Explorer_Demo\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>NTAG_I2C_Explorer_Demo\Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Shared\Resource Files</Filter>
+    </Image>
+    <Image Include="icon.ico">
+      <Filter>Shared\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Shared\Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="VS_VERSION_INFO.rc">
+      <Filter>Shared\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>Shared\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TapTagForm.resx">
+      <Filter>Shared\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SessionRegForm.resx">
+      <Filter>Shared\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EEPROMSpeedForm.resx">
+      <Filter>Shared\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigRegForm.resx">
+      <Filter>Shared\Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadMemForm.resx">
+      <Filter>Shared\Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin2.bin">
+      <Filter>Shared\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
